@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: helvetica;
+}
+
+/*Header*/
+
+header {
+  color: #fff;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo-menu {
+  background: #000;
+}
+
+.logo-menu .menu a {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+.logo-menu .menu a:hover {
+  border-bottom: 4px solid #d14613;
+  padding-bottom: 23px;
+  line-height: 2px;
+}
+
+@media (min-width: 1px) and (max-width: 450px){
+  .menu {
+    display: none;
+  }
+  .boton {
+    display: block;
+    padding-bottom: 10px;
+  }
+  .logo {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 1800px){
+  .boton {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+  }
+}
+
+/*Main*/
+
+.main {
+  padding: 40px;
+}
+
+.one img {
+  width: 100%;
+}
+
+.main .do h1, .us h1 {
+  color: grey;
+}
+
+.main p {
+  color: grey;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+.btn {
+  padding: 10px;
+  background: #d14613;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.main .box {
+  border: 1px solid #c3c6c9;
+  margin-top: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.box h1 {
+  font-size: 20px;
+  color: grey;
+  margin-left: 20px;
+}
+
+.box p {
+  margin-left: 20px;
+}
+
+.box .btn {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.box img {
+  width: 100%;
+}
+
+footer {
+  background-color: #000;
+  height: 100px;
+}
+
+footer p {
+  color: #fff;
+  margin-top: 40px;
+}
